@@ -24,6 +24,7 @@ The magazine is not interested in any establishments in Dover, so check how many
 
 Use update_many to convert latitude and longitude to decimal numbers.
 Use update_many to convert RatingValue to integer numbers.
+<img width="937" alt="image" src="https://github.com/SavannahWithAnH/Module-12-Challenge/assets/126124356/c75fb506-4c9c-4587-9aa6-1d8e6d368765">
 
 
 ### Part 3: Exploratory Analysis
@@ -38,12 +39,11 @@ Which establishments have a hygiene score equal to 20?
 
 Which establishments in London have a RatingValue greater than or equal to 4?
 
-Hint: The London Local Authority has a longer name than "London" so you will need to use $regex as part of your search.
-
 What are the top 5 establishments with a RatingValue of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"?
 
-Hint: You will need to compare the geocode to find the nearest locations. Search within 0.01 degree on either side of the latitude and longitude.
+<img width="440" alt="image" src="https://github.com/SavannahWithAnH/Module-12-Challenge/assets/126124356/db5d624e-04f7-4e91-8622-73c15f1815c8">
+
 
 How many establishments in each Local Authority area have a hygiene score of 0? Sort the results from highest to lowest, and print out the top ten local authority areas.
 
-Hint: You will need to use the aggregation method to answer this.
+
